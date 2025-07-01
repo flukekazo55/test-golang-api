@@ -21,7 +21,7 @@ It includes basic CRUD for users and JWT-based authentication.
 ---
 
 # 🧱 Project Structure
-![Screenshot 2025-07-01 152435](https://github.com/user-attachments/assets/0cb7be71-8ad3-42be-bf0f-af615e19773f)
+![image](https://github.com/user-attachments/assets/44b7dd4f-2ba8-41af-8322-078b77de001d)
 
 
 ---
@@ -36,10 +36,17 @@ cd test-gin-api
 ```
 go mod tidy
 ```
-3. Run the server
+## 3. Run the server
 ```
 go run main.go
 ```
 ```
 Server will start at: http://localhost:8080
+```
+
+# 🧪 Unit Testing
+Unit tests are provided for all user-related routes (/users).
+## Run tests:
+```
+go test ./controllers -v
 ```
