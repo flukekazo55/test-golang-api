@@ -18,6 +18,8 @@ It includes basic CRUD for users and JWT-based authentication.
     "data": {...}
   }
 
+---
+
 # 🧱 Project Structure
 test-gin-api/
 ├── main.go
@@ -33,6 +35,8 @@ test-gin-api/
 │   └── router.go
 └── utils/
     └── jwt.go
+
+---
 
 # 🔧 Setup & Run
 ## 1. Clone the repo
