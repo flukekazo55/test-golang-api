@@ -5,7 +5,7 @@ It includes basic CRUD for users and JWT-based authentication.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - RESTful API for user management
 - JWT Authentication (login + middleware)
@@ -17,3 +17,37 @@ It includes basic CRUD for users and JWT-based authentication.
     "message": "OK",
     "data": {...}
   }
+
+# 🧱 Project Structure
+test-gin-api/
+├── main.go
+├── go.mod
+├── controllers/
+│   ├── user_controller.go
+│   └── auth_controller.go
+├── middleware/
+│   └── auth_middleware.go
+├── models/
+│   └── user.go
+├── routes/
+│   └── router.go
+└── utils/
+    └── jwt.go
+
+# 🔧 Setup & Run
+## 1. Clone the repo
+```
+git clone https://github.com/yourname/test-gin-api.git
+cd test-gin-api
+```
+## 2. Install dependencies
+```
+go mod tidy
+```
+3. Run the server
+```
+go run main.go
+```
+```
+Server will start at: http://localhost:8080
+```
