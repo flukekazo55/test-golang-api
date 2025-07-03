@@ -5,9 +5,15 @@ import (
 
 	// route import
 	"test-golang-api/routes"
+
+	// database import
+	"test-golang-api/database"
 )
 
 func main() {
+	// connect to MongoDB
+	database.ConnectDB()
+
 	r := gin.Default()
 
 	// register API routes
