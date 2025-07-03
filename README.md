@@ -21,7 +21,7 @@ It includes basic CRUD for users and JWT-based authentication.
 ---
 
 # 🧱 Project Structure
-![image](https://github.com/user-attachments/assets/44b7dd4f-2ba8-41af-8322-078b77de001d)
+![image](https://github.com/user-attachments/assets/8672b3b4-99dc-4a0d-9cee-0c77db38d3bc)
 
 
 ---
